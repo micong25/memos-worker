@@ -9,15 +9,15 @@ run_worker_first = [
 
 [[d1_databases]]
 binding = "DB"
-database_id = "YOUR_D1_DATABASE_ID"
-database_name = "YOUR_D1_DATABASE_NAME"
+database_id = "a9ead2e4-5d28-4488-b0ad-32397edd13e7"
+database_name = "notes-db"
 
 [[kv_namespaces]]
 binding = "NOTES_KV"
-id = "YOUR_KV_NAMESPACE_ID"
+id = "887a07d6e820422abf518bb2575b7535"
 preview_id = ""
 
 [[r2_buckets]]
 binding = "NOTES_R2_BUCKET"
-bucket_name = "YOUR_R2_BUCKET_NAME"
+bucket_name = "notes-r2-bucket"
 preview_bucket_name = "notes-files-preview"
